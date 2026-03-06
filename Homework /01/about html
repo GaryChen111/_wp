@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>我的個人網頁</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        header{
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+
+        section{
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        img{
+            width:150px;
+            border-radius:50%;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>我的個人網站</h1>
+    <p>歡迎來到我的網頁</p>
+</header>
+
+<section>
+    <h2>關於我</h2>
+    
+    <p>大家好，我叫陳冠宏。</p>
+    <p>我是金門大學應英系的學生，我對語言，科技跟學習新知識很有興趣。</p>
+</section>
+
+<section>
+    <h2>我的興趣</h2>
+    <ul>
+        <li>看電影</li>
+        <li>閱讀小說</li>
+        <li>學習英文</li>
+    </ul>
+</section>
+
+<section>
+    <h2>聯絡方式</h2>
+    <p>Email: s111212105@student.nqu.edu.tw</p>
+</section>
+
+</body>
+</html>
+
+
