@@ -1,0 +1,17 @@
+function calculateTotal(cart, discountFunc) {
+    // 先加總
+    let total = 0;
+    for (let i = 0; i < cart.length; i++) {
+        total += cart[i];
+    }
+
+    // 再交給 callback 處理
+    return discountFunc(total);
+}
+
+// 測試
+const result = calculateTotal([100, 200, 300], function(total) {
+    return total - 50;
+});
+
+console.log(result); // 550
