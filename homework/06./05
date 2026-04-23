@@ -1,0 +1,8 @@
+function multiplier(factor) {
+    return (n) => n * factor;
+}
+
+// 使用
+const double = multiplier(2);
+
+console.log(double(10)); // 20
